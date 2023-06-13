@@ -12,6 +12,7 @@ type Cache struct {
 	OnEvicted func(key string, value Value)
 }
 
+// key value 结构
 type entry struct {
 	key   string
 	value Value
